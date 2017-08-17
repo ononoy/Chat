@@ -14,6 +14,11 @@
 		180155D21F45BA5100B5D867 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180155D01F45BA5100B5D867 /* LaunchScreen.storyboard */; };
 		180155DD1F45BA5200B5D867 /* ChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180155DC1F45BA5200B5D867 /* ChatTests.swift */; };
 		180155E81F45BA5200B5D867 /* ChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180155E71F45BA5200B5D867 /* ChatUITests.swift */; };
+		180155F61F45C0A200B5D867 /* RuteTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180155F51F45C0A200B5D867 /* RuteTabBarController.swift */; };
+		180155F81F45C44600B5D867 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180155F71F45C44600B5D867 /* LeftViewController.swift */; };
+		180155FA1F45C45E00B5D867 /* MiddleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180155F91F45C45E00B5D867 /* MiddleViewController.swift */; };
+		180155FC1F45C47500B5D867 /* RightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180155FB1F45C47500B5D867 /* RightViewController.swift */; };
+		180155FE1F45CE7900B5D867 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180155FD1F45CE7900B5D867 /* SettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		180155E31F45BA5200B5D867 /* ChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		180155E71F45BA5200B5D867 /* ChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatUITests.swift; sourceTree = "<group>"; };
 		180155E91F45BA5200B5D867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180155F51F45C0A200B5D867 /* RuteTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RuteTabBarController.swift; sourceTree = "<group>"; };
+		180155F71F45C44600B5D867 /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		180155F91F45C45E00B5D867 /* MiddleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiddleViewController.swift; sourceTree = "<group>"; };
+		180155FB1F45C47500B5D867 /* RightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightViewController.swift; sourceTree = "<group>"; };
+		180155FD1F45CE7900B5D867 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +110,11 @@
 				180155C71F45BA5100B5D867 /* AppDelegate.swift */,
 				180155C91F45BA5100B5D867 /* ViewController.swift */,
 				180155CB1F45BA5100B5D867 /* Main.storyboard */,
+				180155FD1F45CE7900B5D867 /* SettingViewController.swift */,
+				180155FB1F45C47500B5D867 /* RightViewController.swift */,
+				180155F91F45C45E00B5D867 /* MiddleViewController.swift */,
+				180155F71F45C44600B5D867 /* LeftViewController.swift */,
+				180155F51F45C0A200B5D867 /* RuteTabBarController.swift */,
 				180155CE1F45BA5100B5D867 /* Assets.xcassets */,
 				180155D01F45BA5100B5D867 /* LaunchScreen.storyboard */,
 				180155D31F45BA5100B5D867 /* Info.plist */,
@@ -258,8 +273,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				180155FA1F45C45E00B5D867 /* MiddleViewController.swift in Sources */,
 				180155CA1F45BA5100B5D867 /* ViewController.swift in Sources */,
+				180155F81F45C44600B5D867 /* LeftViewController.swift in Sources */,
+				180155F61F45C0A200B5D867 /* RuteTabBarController.swift in Sources */,
 				180155C81F45BA5100B5D867 /* AppDelegate.swift in Sources */,
+				180155FE1F45CE7900B5D867 /* SettingViewController.swift in Sources */,
+				180155FC1F45C47500B5D867 /* RightViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
